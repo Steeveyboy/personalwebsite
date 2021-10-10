@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+body{
+  font-size: 1.5vw;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #eafffe;
+}
+
+a:hover
+{
+  color:rgb(25, 25, 250);
+}
+/*
+
+h2 {
+  font-size: 2vw;
+}
+p {
+  font-size: 2vw;
+}*/
+
+.App-link {
+  color: #61dafb;
+}
+
+.headerSection {
+  height: 10vw;
+  background-color: rgb(237, 244, 252);
+}
+
+.aboutSection {
+  width: 100%;
+  height: 32vw;
+  padding: 2vw 0 2vw;
+  /*background-image: url("https://as1.ftcdn.net/v2/jpg/03/06/36/40/1000_F_306364099_azW4JOut3sfMeQgeDP3bn68BGXKL7r4X.jpg");*/
+  background-image: url("images/OttawaSkylinePreview.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

@@ -1,0 +1,13 @@
+.header{
+    max-width: 70%;
+    align-self: center;
+    margin: auto;
+    height: 100%;
+}
+
+.header h1 {
+    vertical-align: middle;
+    padding-top: 2.5vw;
+    font-family: 'Roboto', sans-serif;
+    color: #001B2E;
+}

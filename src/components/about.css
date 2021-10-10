@@ -1,0 +1,25 @@
+
+.aboutPage {
+    width: 70%;
+    height: 90%;
+    vertical-align: middle;
+    align-self: center;
+    padding: 1vw 2vw 2vw;
+    margin: auto;
+    background-color: rgb(15, 14, 14, 0.6);
+    color: #eafffe;
+}
+
+
+.aboutText{
+    width: 60%;
+    padding-left: 5%;
+    text-align: left;
+}
+
+#headshot{
+    width: 15vw;
+    border-radius: 10vw;
+    margin-right: 4vw;
+    float: right;
+}
