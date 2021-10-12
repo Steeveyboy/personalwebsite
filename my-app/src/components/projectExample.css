@@ -1,0 +1,23 @@
+.project{
+    padding-top: 10px;
+    max-width: 70%;
+    height: 35vw;
+    align-self: center;
+    margin: auto;
+}
+
+.project a{
+    color: black;
+}
+
+.imgRight{
+    width: 20vw;
+    margin-left: 4vw;
+    float: right;
+}
+
+.imgLeft{
+    width: 20vw;
+    margin-right: 4vw;
+    float: left;
+}
