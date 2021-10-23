@@ -1,13 +1,43 @@
 .header{
-    max-width: 70%;
-    align-self: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
     margin: auto;
     height: 100%;
 }
 
 .header h1 {
+    float: left;
     vertical-align: middle;
-    padding-top: 2.5vw;
+    margin: auto 1vw auto 12.5vw;
     font-family: 'Roboto', sans-serif;
     color: #001B2E;
+}
+
+ul {
+    float: right;
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    margin-left: 5vw;
+    width: 40%;
+    overflow: hidden;
+  }
+
+li {
+    float: right;
+}
+
+li a{
+    display: block;
+    color: #001B2E;
+    text-align: center;
+    padding: 2vw 2vw;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #001B2E;
+    background-color: #ceeeec;
 }

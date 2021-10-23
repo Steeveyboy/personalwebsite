@@ -1,0 +1,22 @@
+.goodBooks{
+    padding-top: 10px;
+    max-width: 80%;
+    height: 35vw;
+    align-self: center;
+    margin: auto;
+    background-color:#ceeeeca8;
+}
+
+.goodBooks h1{
+    padding-bottom: 1vw;
+}
+
+.goodBooks img{
+    width: 70%;
+}
+
+.bookChoice{
+    display: inline-block;
+    max-width: 28%;
+    margin: 1vw;
+}
