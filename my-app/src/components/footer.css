@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+}
+
+.footer{
+    padding: 1vw;
+}
+
+.footer ul {
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    margin-left: 5vw;
+    width: 40%;
+    overflow: hidden;
+  }
+
+li {
+    float: right;
+}
+
+.footer a{
+    display: inline;
+    color: #001B2E;
+    text-align: center;
+    margin: 2vw 2vw;
+    text-decoration: none;
+}
+
+.footer h4{
+    margin-top: 0;
+    margin-bottom: 1vw;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #001B2E;
+    background-color: #ceeeec;
+}

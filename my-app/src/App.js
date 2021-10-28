@@ -6,6 +6,7 @@ import Header from './components/header'
 import ProjectLeft from './components/projectLeftExample'
 import ProjectRight from './components/projectRightExample'
 import Books from './components/books'
+import Footer from './components/footer'
 //import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <div class="booksSection" id="books">
           <Books />
         </div>
+        <div class="footerSection"><Footer /></div>
     </div>
   );
 }

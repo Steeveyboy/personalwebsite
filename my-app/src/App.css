@@ -41,6 +41,11 @@ p {
   background-color: rgb(237, 244, 252);
 }
 
+.footerSection {
+  /* height: 6vw; */
+  background-color: rgb(237, 244, 252);
+}
+
 .aboutSection {
   width: 100%;
   height: 32vw;

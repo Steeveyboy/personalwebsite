@@ -14,7 +14,7 @@
     color: #001B2E;
 }
 
-ul {
+.header ul {
     float: right;
     text-align: center;
     list-style-type: none;
