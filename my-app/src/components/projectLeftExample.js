@@ -7,12 +7,14 @@ function projectExample({imagePath, title, text}){
             <img id="projectImage" class="imgLeft" src={imagePath} alt=""></img>
             <div>            
                 <h1>{title}</h1>
-                <p>THIS Is a project for the sday 
-                    I have never wondered what a better project could be
-                    Who made this project, MOre and MORe and more and more tesxt
-                    because we need to fill up this projectImage, I wonder what coudl be done
-                    My god 
-                    <a href="https://steeveyboy.github.io/ConwaysChartOfLife"> <b>Game</b></a>
+                <p>Conways Game of Life presents an instance of cellular automata
+                    where the user can contribute to the games evolution or destruction,
+                    through setting the initial state.
+                    In my version Conways Game of life, the player is allowed to alter the
+                    state of the cells at any point of the game abd alter the course of the
+                    simulation. The population of the simulation is also tracked throughout the
+                    game and graphed using chart.js, if iterested you can play the game 
+                    <a href="https://steeveyboy.github.io/ConwaysChartOfLife"> <b>here.</b></a>
                 </p>
             </div>
 
