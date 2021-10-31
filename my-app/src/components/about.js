@@ -16,7 +16,7 @@ function about(){
             </div>
             <a href="https://github.com/Steeveyboy?tab=repositories">Github</a> 
             <a href="https://www.linkedin.com/in/jonathon-s-763ab211a/"> LinkedIn</a> 
-            <a href="/images/JonathonSteeves.pdf"> Resume</a>
+            <a href="./images/JonathonSteeves.pdf"> Resume</a>
         </div>
         
     );
