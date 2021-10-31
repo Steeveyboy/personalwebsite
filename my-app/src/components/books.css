@@ -19,4 +19,12 @@
     display: inline-block;
     max-width: 28%;
     margin: 1vw;
+    vertical-align: top;
+}
+.bookChoice img{
+    /* max-width: 25%; */
+}
+
+.bookDescription{
+    /* height: 300px; */
 }
