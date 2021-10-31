@@ -17,8 +17,8 @@ function App() {
             <About />
           </div>
         <div class="projectSection" id="projects">
-          <ProjectLeft imagePath="images/conwaysCrop.png" title="Conways Game of life"/>
-          <ProjectRight imagePath="images/pathfinder2.png" title="Pathfinding Algorithm Visualiser"/>
+          <ProjectLeft imagePath="./images/conwaysCrop.png" title="Conways Game of life"/>
+          <ProjectRight imagePath="./images/pathfinder2.PNG" title="Pathfinding Algorithm Visualiser"/>
           </div>
         <div class="booksSection" id="books">
           <Books />

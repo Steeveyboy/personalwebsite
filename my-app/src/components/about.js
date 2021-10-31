@@ -1,12 +1,13 @@
-import React, {useState} from 'react'
-import "./about.css"
+import React, {useState} from 'react';
+import "./about.css";
+//import headshot from "./my-app/public/images/mecircle";
 //import {Link} from 'react-router-dom';
 
 function about(){
     return (        
         <div className="aboutPage">
             <h2><u>About me</u></h2>
-            <img id="headshot" src="/images/mecircle.png" alt=""></img>
+            <img id="headshot" src="./images/mecircle.png" alt=""></img>
             <div class="aboutText">
                 <p>I am a third year student Carleton University taking Computer Sceince with a minor in Economics. 
                 I use several programming languages including Java, C/C++, Javascript, and Python. 
@@ -21,4 +22,4 @@ function about(){
     );
 }
 
-export default about
+export default about;
