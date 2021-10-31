@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/personalwebsite/static/css/main.1ffa95da.chunk.css",
+    "main.js": "/personalwebsite/static/js/main.cc655c20.chunk.js",
+    "main.js.map": "/personalwebsite/static/js/main.cc655c20.chunk.js.map",
+    "runtime-main.js": "/personalwebsite/static/js/runtime-main.143332e3.js",
+    "runtime-main.js.map": "/personalwebsite/static/js/runtime-main.143332e3.js.map",
+    "static/js/2.c0671920.chunk.js": "/personalwebsite/static/js/2.c0671920.chunk.js",
+    "static/js/2.c0671920.chunk.js.map": "/personalwebsite/static/js/2.c0671920.chunk.js.map",
+    "index.html": "/personalwebsite/index.html",
+    "static/css/main.1ffa95da.chunk.css.map": "/personalwebsite/static/css/main.1ffa95da.chunk.css.map",
+    "static/js/2.c0671920.chunk.js.LICENSE.txt": "/personalwebsite/static/js/2.c0671920.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/personalwebsite/static/media/OttawaSkylinePreview.ccabdb4d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.143332e3.js",
+    "static/js/2.c0671920.chunk.js",
+    "static/css/main.1ffa95da.chunk.css",
+    "static/js/main.cc655c20.chunk.js"
+  ]
+}
