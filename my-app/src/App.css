@@ -8,10 +8,12 @@ html{
 
 body{
   font-size: 1.5vw;
+  background-color: #f4f9ff;
 }
 
 h1 {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -38,13 +40,13 @@ p {
 
 .headerSection {
   height: 6vw;
-  background-color: rgb(237, 244, 252);
+  /* background-color: rgb(237, 244, 252); */
 }
 
-.footerSection {
-  /* height: 6vw; */
-  background-color: rgb(237, 244, 252);
-}
+/* .footerSection {
+   height: 6vw;
+   background-color: rgb(237, 244, 252); 
+} */
 
 .aboutSection {
   width: 100%;

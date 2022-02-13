@@ -1,6 +1,7 @@
 .goodBooks{
     padding-top: 10px;
     max-width: 80%;
+    border-radius: 5px;
     /* height: 35vw; */
     align-self: center;
     margin: auto;
