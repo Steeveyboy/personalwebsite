@@ -1,7 +1,4 @@
-import React, {Component, useState} from 'react';
 import "./projectExample.css";
-
-
 
 function projectExample({imagePath, title, text}){
     return (        

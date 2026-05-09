@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./about.css";
 //import headshot from "./my-app/public/images/mecircle";
 //import {Link} from 'react-router-dom';
