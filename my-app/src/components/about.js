@@ -6,11 +6,9 @@ function about(){
             <h2><u>About me</u></h2>
             <img id="headshot" src="/images/mecircle.png" alt="Headshot of Jonathon Steeves"></img>
             <div className="aboutText">
-                <p>I am a fourth year student Carleton University studying Computer Science with a minor in Economics.
-                I use several programming languages including C++, Javascript, and Python, and enjoy making robots to automate monotonous tasks.
-                I currently work as a Data Scientist at the Department of Finance Canada.
-                Right now I am learning tools such as <b>Scikit-Learn</b> and practicing <b>Machine Learning </b> techniques with a focus on natural language processing.
-                Outside of work I enjoy reading, sailing, playing frisbee, and karate. I am currently accepting clients and am open for contract work.</p>
+                <p>
+                I am an Ottawa-based Data Scientist II. Since graduating from Carleton University with a Bachelor of Computer Science (Honours) and an Economics minor, my work has focused heavily on systems architecture, data pipelines, and large language model infrastructure using Python. I am deeply interested in the intersection of AI and quantitative finance, building tools like agent-based risk engines, and leading discussions on the latest industry research. Whether I am securing RAG applications or exploring systematic trading, I enjoy tackling complex, data-driven problems.    
+                </p>
             </div>
             <a href="https://github.com/Steeveyboy?tab=repositories">Github</a>
             <a href="https://www.linkedin.com/in/jonathon-s-763ab211a/"> LinkedIn</a>
