@@ -5,14 +5,12 @@
 - [ ] Update resume PDF if stale
 - [ ] Refresh book recommendations if opinions have changed (e.g. Elon Musk biography)
 
-## Design / UX
-- [ ] Mobile responsiveness — nav and layout break on small screens (everything sized in vw, no media queries)
-
 ## Tech / Maintenance
 - [ ] Upgrade React 18 → 19
-- [ ] Commit `my-app/eslint.config.js` (currently untracked)
 
 ## Done
+- [x] Mobile responsiveness — added `@media (max-width: 768px)` breakpoints across all component CSS
+- [x] Committed `my-app/eslint.config.js`
 - [x] Migrated CRA → Next.js (`next@14`, `output: 'export'`, static export to `out/`)
 - [x] React 17 → 18
 - [x] `class=` → `className=` across all JSX files
