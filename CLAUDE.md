@@ -18,15 +18,13 @@ If a change doesn't serve one of those, it probably doesn't belong.
 
 ## Stack
 
-<!-- Adjust this block to match the actual repo before first use. -->
-
-- **Framework:** Astro
-- **Styling:** Tailwind CSS
-- **Content:** Markdown / MDX in `src/content/`
+- **Framework:** Next.js 14 (App Router), React 18
+- **Styling:** plain CSS, one stylesheet per component in `my-app/src/components/`
+- **Content:** hardcoded JSX in `my-app/src/app/page.js` and the component files
 - **Package manager:** npm
-- **Deploy:** git push to `main` triggers a production build; branches get preview URLs
+- **Deploy:** `output: 'export'` static export to `my-app/out/`, pushed to GitHub Pages via `.github/workflows/deploy.yml`
 
-Local dev: `npm run dev` (hot reload). Build check: `npm run build`.
+Local dev: `cd my-app && npm run dev` (hot reload, http://localhost:3000). Build check: `npm run build`.
 
 ## Working agreements
 
@@ -99,6 +97,6 @@ The prose on this site is written by a person. Don't generate it.
 - Commits: imperative mood, one logical change per commit (`Add writing index page`,
   not `updates`).
 - Filenames: lowercase, hyphen-separated.
-- Content lives in `src/content/`; components in `src/components/`; anything served
-  as-is in `public/`.
+- Content lives inline in `my-app/src/app/page.js`; components in
+  `my-app/src/components/`; static assets (images, resume PDF) in `my-app/public/`.
 - Prose in Markdown wraps at a readable width; don't reflow existing files wholesale.
