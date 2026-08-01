@@ -41,3 +41,31 @@ li a:hover {
     color: #001B2E;
     background-color: #ceeeec;
 }
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 3vw 0;
+    }
+
+    .header h1 {
+        margin: 0 0 3vw;
+        text-align: center;
+        font-size: 6vw;
+    }
+
+    .header ul {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .header li {
+        float: none;
+        display: inline-block;
+    }
+
+    .header li a {
+        padding: 2vw 3vw;
+    }
+}

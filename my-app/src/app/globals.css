@@ -51,3 +51,18 @@ a:hover
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .headerSection {
+    height: auto;
+  }
+
+  .aboutSection {
+    height: auto;
+    padding: 6vw 0;
+  }
+}

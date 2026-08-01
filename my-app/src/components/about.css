@@ -23,3 +23,25 @@
     margin-right: 4vw;
     float: right;
 }
+
+@media (max-width: 768px) {
+    .aboutPage {
+        width: 90%;
+        padding: 4vw;
+    }
+
+    .aboutText {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #headshot {
+        width: 40vw;
+        max-width: 180px;
+        border-radius: 50%;
+        float: none;
+        display: block;
+        margin: 0 auto 4vw;
+    }
+}

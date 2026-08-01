@@ -21,3 +21,19 @@
     margin-right: 4vw;
     float: left;
 }
+
+@media (max-width: 768px) {
+    .project {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .imgLeft,
+    .imgRight {
+        width: 100%;
+        max-width: 280px;
+        float: none;
+        margin: 0 auto 4vw;
+        display: block;
+    }
+}
