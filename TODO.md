@@ -1,21 +1,23 @@
 # Personal Website TODO
 
-## Bugs / Broken
-- [ ] Fix footer email link — `href="#books"` should be `mailto:jonathon.steeves@cmail.carleton.ca`
-- [ ] Replace `class=` with `className=` in JSX (about.js, books.js, header.js)
-- [ ] Fix typo in Conway's description: "iterested" → "interested"
-
 ## Content
-- [ ] Update About me bio — no longer a fourth-year Carleton student
+- [ ] Add new projects (especially any data science / LLM infra work since 2021) — Projects section still only shows Conway's Game of Life and the Pathfinding Visualiser
 - [ ] Update resume PDF if stale
-- [ ] Add new projects (especially any data science work since 2021)
 - [ ] Refresh book recommendations if opinions have changed (e.g. Elon Musk biography)
 
 ## Design / UX
-- [ ] Mobile responsiveness — nav and layout break on small screens (everything sized in vw)
-- [ ] Add SEO meta tags (description, Open Graph) to index.html
+- [ ] Mobile responsiveness — nav and layout break on small screens (everything sized in vw, no media queries)
 
 ## Tech / Maintenance
-- [ ] Migrate from CRA (react-scripts, deprecated) to Vite
-- [ ] Upgrade React 17 → 19
-- [ ] Replace `class=` with `className=` across all JSX files (also listed under Bugs)
+- [ ] Upgrade React 18 → 19
+- [ ] Commit `my-app/eslint.config.js` (currently untracked)
+
+## Done
+- [x] Migrated CRA → Next.js (`next@14`, `output: 'export'`, static export to `out/`)
+- [x] React 17 → 18
+- [x] `class=` → `className=` across all JSX files
+- [x] Footer email link fixed to `mailto:jonathan.qsteeves@gmail.com`
+- [x] Fixed "iterested" → "interested" typo in Conway's description
+- [x] Updated About me bio (no longer references being a Carleton student)
+- [x] Added SEO meta tags (title, description, Open Graph) via Next.js Metadata API in `layout.js`
+- [x] Removed dead CRA files (`App.js`, `App.css`, `index.css`) and stale `build/` output
